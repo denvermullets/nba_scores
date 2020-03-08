@@ -7,6 +7,7 @@ def start_program
     choices = get_todays_games(get_today)
     game_select = prompt.select("Here are today's games, select the one you wish to view:", choices)
 
+    get_game_data
 
 end 
  
